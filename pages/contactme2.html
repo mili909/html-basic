@@ -4,8 +4,34 @@
 <meta charset="utf-8">
 <title>contactme</title>
 <style>
+	
+	
+	#container {
+		width: 80%;
+		min-height: 90vh;
+		margin: auto;
+		border: 1px solid black; 
+	}
+	
+	#header{ border-bottom: 1px solid black;
+		padding: 10px; 
+		text-align: center;
+		background-color: #9467B4;
+		
+	}
+	#nav{
+		border-bottom: : 1px solid black;
+		padding: 10px;
+		
+	}
+	main{
+padding: 10xp;
+		
+	
+	
+	
 /*Form style*/	
-	form{
+	form {
 		width: 40vw;
 		margin: 20px auto;
 		border: 1px solid black;
@@ -14,18 +40,24 @@
 	
 	
 </style>
-	
+
 	
 	
 </head>
 
 <body>
-<nav> <a href="hello-world2.html">hello world</a>
+	<!--Mail layout container-->
+	
+	<div id="container">
+		
+	<div id="header"><header><h1>contact</h1></header></div>
+    <div id="nav"><nav> <a href="hello-world2.html">hello world</a>
 	<a href="predatory animals2.html">table animals</a>
 	<a href="contactme2.html">contact me</a>	
 	<a href="//www.cphbusiness.dk/" target="_blank">My school</a>
-	<a href="index.html">HTML</a> </nav>
-<!--Webform-->
+	<a href="index.html">HTML</a> </nav></div>	
+		
+	<div id="main"><!--Webform-->
 <form action="mailto:klu@cphbusiness.dk" method="post">
 <h1>contact</h1>
 <form>
@@ -48,9 +80,25 @@
 	</p>
 	<p><textarea name="comment" placeholder="your messege..."></textarea></p>
 	<p>I love this<input type="radio" name="love"></p>
+	<p>I hate this<input type="radio" name="love"></p>
 	
 	<input type="submit" value="submit form">
 	
-</form>
+</form></div>
+		
+	<div id="footer"></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+
+
 </body>
+	<footer>
+	
+	</footer>
 </html>
